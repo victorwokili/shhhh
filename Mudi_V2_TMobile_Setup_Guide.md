@@ -53,14 +53,14 @@ To set up your T-Mobile line on the Mudi V2 router, follow these steps:
 
 ## 2. **Repair/Change IMEI (If Required)**
 
-To configure or reset the IMEI on the Mudi V2 router, use the following AT command:
+Make sure to use the IMEI of a phone that will not be connected to the internet. To configure or reset the IMEI on the Mudi V2 router, use the following AT command:
 
 1. In the admin panel, go to **Internet** > **Modem Management**.
 2. Scroll down to the **AT Command** section.
 3. Enter the following command:
 
    ```bash
-   AT+EGMR=1,7,"352207821231797"
+   AT+EGMR=1,7,"INSERT IMEI HERE"
    ```
 
 Click Send to execute the command.
